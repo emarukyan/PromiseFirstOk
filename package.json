@@ -1,0 +1,28 @@
+{
+  "name": "promisefirstok",
+  "version": "1.0.0",
+  "description": "Run callback Promise function for each item in array, and return result of the first one that is not false.",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.4.7"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.7"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emarukyan/PromiseFirstOk.git"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "Edgar Marukyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emarukyan/PromiseFirstOk/issues"
+  },
+  "homepage": "https://github.com/emarukyan/PromiseFirstOk#readme"
+}
