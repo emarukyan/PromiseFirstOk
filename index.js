@@ -3,7 +3,7 @@ var Promise = require('bluebird')
 // Run a promise callback function for each array element, and if result is not false|null
 // return that result.
 // if all cases are false, then result will be false.
-function PromiseFirstOk (array, f) {
+function PromiseFirstOk (arr, f) {
     if (arr.length === 0) {
       return false
     }
